@@ -1,0 +1,199 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/*HOME */
+.home{
+  width: 100%;
+  height: 100vh;
+  background-color: azure;
+}
+/*HEADER */
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(0, 0, 0);
+  padding: 10px 40px;
+  
+}
+.logo{
+  font: 35px;
+  color: #fff;
+  font-weight: 600;
+}
+.header .navigation{
+  list-style: none;
+
+}
+.header .navigation ul li{
+  display: inline-block;
+  padding: 10px 40px;
+}
+.header .navigation ul li a{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.header .btn{
+  padding: 10px 50px;
+}
+.header .btn button ,.col button{
+  padding: 10px 30px;
+  background-color: #2c8898;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+/* MAIN */
+.main{
+  display: flex;
+  height: 80%;
+  align-items: center;
+}
+.col{
+  flex-basis: 50%;
+}
+.col1{
+  margin-left: 45px;
+   
+}
+.col h2{
+  font-size: 45px;
+  color: #988275;
+  font-weight: 600;
+
+}
+.col p{
+  font-size: 20px;
+  color: gray;
+  font-weight: 500;
+  margin-top: 20px;
+
+}
+.col button{
+  margin-top: 30px;
+}
+.card{
+  width: 200px;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  height: 220px;
+  margin: 10px 15px;
+  padding: 15px 25px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+.card1{
+  background-image: url(Assets/andrea-davis-0SSPeyokubs-unsplash.jpg);
+}
+.card2{
+  background-image: url(Assets/ben-kolde-FFqNATH27EM-unsplash.jpg);
+}
+.card3{
+  background-image: url(Assets/chastity-cortijo-M8iGdeTSOkg-unsplash.jpg);
+}
+.card4{
+  background-image: url(Assets/kam-idris-kyt0PkBSCNQ-unsplash.jpg);
+}
+.card5{
+  background-image: url(Assets/joseph-gonzalez-fdlZBWIP0aM-unsplash.jpg);
+}
+.card6{
+  background-image: url(Assets/spacejoy-IH7wPsjwomc-unsplash.jpg);
+}
+.card:hover{
+  transform: translateY(-10px);
+}
+
+/* SECTION */
+.Section{
+  background-color: aliceblue;
+  width: 100%;
+  height: 150%;
+  align-items: center;
+  justify-content: space-around;
+  /* display: flex; */
+  
+}
+.tag{
+  width: 300px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  height: 320px;
+  margin: 10px 15px;
+  padding: 15px 25px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+.tag:hover{
+  transform: translateX(-10px);
+}
+ .wrapper{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+} 
+
+.wrap1{
+  background-image: url(Assets/places/adam-winger-VGs8z60yT2c-unsplash.jpg);
+}
+.text{
+  margin-top: 20rem;
+  margin-left: -1rem;
+}
+.wrap2{
+  background-image: url(Assets/places/chastity-cortijo-R-w5Q-4Mqm0-unsplash.jpg);
+}
+.wrap3{
+  background-image: url(Assets//places/hector-falcon-S-NVrYzaOM0-unsplash.jpg);
+}
+.wrap4{
+  background-image: url(Assets/places/jason-briscoe-UV81E0oXXWQ-unsplash.jpg);
+}
+.wrap5{
+  margin-top: 8rem;
+  background-image: url(Assets/places/ralph-ravi-kayden-FqqiAvJejto-unsplash.jpg);
+}
+.wrap6{
+  margin-top: 8rem;
+  background-image: url(Assets/places/roberto-nickson-emqnSQwQQDo-unsplash.jpg);
+}
+.wrap7{
+  margin-top: 8rem;
+  background-image: url(Assets/places/roberto-nickson-tleCJiDOri0-unsplash.jpg);
+}
+.wrap8{
+  margin-top: 8rem;
+  background-image: url(Assets/places/spacejoy-TKFskJy8PQ8-unsplash\ \(1\).jpg);
+}
+.headbill1, .headbill2, .headbill3, .headbill4, .headbill5, .headbill6, .headbill7, .headbill8{
+  font-weight: bold;
+
+}
+.headtxt1,.headtxt2, .headtxt3, .headtxt4, .headtxt5, .headtxt6, .headtxt7, .headtxt8{
+  font-weight: bold;
+}
+.topheader{
+  font-size: 3rem;
+  color: #988275;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25rem;
+  padding-top: 2rem;
+}
